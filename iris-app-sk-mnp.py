@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import datasets
 
-def      user_input():
+def user_input():
   sepal_length = st.sidebar.slider('Sepal Length',4.3,7.9,5.4)
   sepal_width = st.sidebar.slider('Sepal Width',2.0,4.4,3.4)
   petal_length = st.sidebar.slider('Petal Length',1.0,6.9,4.6)
